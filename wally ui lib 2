@@ -1,3 +1,8 @@
+do
+	local i = game:GetService("CoreGui"):FindFirstChild("ScreenGui")
+	if i then i:Destroy() end
+end
+
 if game.GameId == 833423526 then print("magik"); print("uwu"); end
 local library = {count = 0, queue = {}, callbacks = {}, rainbowtable = {}, toggled = true, binds = {}};
 local defaults; do
